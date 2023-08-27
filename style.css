@@ -1,0 +1,31 @@
+section p::first-letter{
+    font-size: xx-large;
+    color: rgb(178, 31, 31);
+}
+header h1::first-line{
+    font-style: oblique;
+}
+main section h2::before{
+    text-decoration-color: rgb(67, 198, 27);
+}
+nav ul li::marker{
+    color: rgb(83, 140, 233);
+}
+.paragraphs p::selection{
+    background-color: rgb(237, 162, 97);
+}
+.paragraphs p::first-line{
+    color: rgb(196, 42, 122);
+}
+nav a::before{
+    content: url('Dtree.gif');   
+}
+nav ul li:last-child::after{
+    content: url('Dtree.gif');
+}
+nav ul li{
+    font-style: italic;
+}
+footer::after{
+    content: url('Dtree.gif');
+}
